@@ -30,7 +30,8 @@
   },
   "tldjs": {
     "providers": {
-      "publicsuffix-org": "https://publicsuffix.org/list/effective_tld_names.dat"
+      "publicsuffix-org": "https://publicsuffix.org/list/effective_tld_names.dat",
+      "ingaia": "https://raw.githubusercontent.com/ingaia/sites.web.tldjs-list/master/public_suffix_list.dat"
     }
   },
   "nyc": {
