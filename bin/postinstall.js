@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 var updater = require('./update.js');
-var SHOULD_UPDATE = process.env.npm_config_tldjs_update_rules === 'true';
-
+//var SHOULD_UPDATE = process.env.npm_config_tldjs_update_rules === 'true';
+var SHOULD_UPDATE = true;
 
 if (SHOULD_UPDATE) {
   console.log('tldjs: updating rules from %s.', updater.providerUrl);
